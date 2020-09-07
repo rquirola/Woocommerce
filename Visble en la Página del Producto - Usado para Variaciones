@@ -1,0 +1,5 @@
+//Setea por defecto la opción [Visible en la Página del Producto] en productos variables
+add_filter( 'default_attribute_visibility', '__return_true' );
+
+//Setea por defecto la opción [Usado para Variaciones] en productos variables
+add_filter( 'default_attribute_variation', '__return_true' );
