@@ -1,4 +1,4 @@
-// Ideas Digitales: Transforma el diplay de rango de precios variables a [Desde: ${monto_minimo}]
+//Transforma el diplay de rango de precios variables a [Desde: ${monto_minimo}]
 
 add_filter( 'woocommerce_variable_sale_price_html', 'wc_custom_variation_price_format', 10, 2 );
 add_filter( 'woocommerce_variable_price_html', 'wc_custom_variation_price_format', 10, 2 );
